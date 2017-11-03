@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MTMenuView" customModule="美团" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="125" height="40"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5zj-XJ-zPC">
+                    <rect key="frame" x="0.0" y="0.0" width="40" height="40"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="dic-xH-gJk"/>
+                    </constraints>
+                </imageView>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UPZ-0M-B7h">
+                    <rect key="frame" x="48" y="0.0" width="77" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wmh-iz-AjP">
+                    <rect key="frame" x="48" y="24" width="77" height="16"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                    <color key="textColor" red="0.2156862745" green="0.2156862745" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Uxs-ID-emk">
+                    <rect key="frame" x="0.0" y="0.0" width="1" height="40"/>
+                    <color key="backgroundColor" red="0.2156862745" green="0.2156862745" blue="0.2156862745" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="0.5" id="IaL-n8-E49"/>
+                    </constraints>
+                </view>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HoG-3M-xkX">
+                    <rect key="frame" x="0.0" y="0.0" width="125" height="40"/>
+                </button>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="UPZ-0M-B7h" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="5tg-tx-Phf"/>
+                <constraint firstAttribute="bottom" secondItem="Uxs-ID-emk" secondAttribute="bottom" id="CwQ-u8-oPw"/>
+                <constraint firstItem="wmh-iz-AjP" firstAttribute="leading" secondItem="5zj-XJ-zPC" secondAttribute="trailing" constant="8" id="EB9-8I-Tl2"/>
+                <constraint firstAttribute="bottom" secondItem="HoG-3M-xkX" secondAttribute="bottom" id="QKl-NZ-IFE"/>
+                <constraint firstItem="UPZ-0M-B7h" firstAttribute="leading" secondItem="5zj-XJ-zPC" secondAttribute="trailing" constant="8" id="QxI-K4-gfk"/>
+                <constraint firstAttribute="bottom" secondItem="wmh-iz-AjP" secondAttribute="bottom" id="TAS-vA-uOy"/>
+                <constraint firstAttribute="trailing" secondItem="UPZ-0M-B7h" secondAttribute="trailing" id="UJR-fL-7Nd"/>
+                <constraint firstItem="5zj-XJ-zPC" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XRo-5K-Mti"/>
+                <constraint firstItem="HoG-3M-xkX" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="XuC-OG-y19"/>
+                <constraint firstItem="Uxs-ID-emk" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="YEe-zo-cqK"/>
+                <constraint firstAttribute="bottom" secondItem="5zj-XJ-zPC" secondAttribute="bottom" id="bSI-5m-GJJ"/>
+                <constraint firstItem="HoG-3M-xkX" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="eB4-Dh-5PT"/>
+                <constraint firstItem="5zj-XJ-zPC" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="htR-tp-60g"/>
+                <constraint firstItem="Uxs-ID-emk" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" id="iFw-jn-Rlh"/>
+                <constraint firstAttribute="trailing" secondItem="wmh-iz-AjP" secondAttribute="trailing" id="jb6-we-nZZ"/>
+                <constraint firstAttribute="trailing" secondItem="HoG-3M-xkX" secondAttribute="trailing" id="wGx-iz-FE1"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <connections>
+                <outlet property="clickBtn" destination="HoG-3M-xkX" id="iwt-Si-lIZ"/>
+                <outlet property="iconImageView" destination="5zj-XJ-zPC" id="lS5-rz-q0R"/>
+                <outlet property="subTtileLabel" destination="wmh-iz-AjP" id="JVc-d5-a8V"/>
+                <outlet property="titleLabel" destination="UPZ-0M-B7h" id="CDF-C1-ngK"/>
+            </connections>
+            <point key="canvasLocation" x="372.5" y="165"/>
+        </view>
+    </objects>
+</document>
